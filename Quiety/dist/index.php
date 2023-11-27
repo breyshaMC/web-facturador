@@ -1190,7 +1190,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="cyber-single-service bg-white rounded-custom mb-30">
+                        <div class="cyber-single-serservervice bg-white rounded-custom mb-30">
                             <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
                                 <i class="fas fa-lock"></i>
                             </div>
@@ -1333,9 +1333,9 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="section-heading text-center z-5 position-relative" data-aos="fade-up">
-                            <h4 class="h5 text-warning">Plans &amp; Pricing</h4>
-                            <h2>Check Our Valuable Price</h2>
-                            <p>Objectively market-driven intellectual capital rather than covalent best practices facilitate strategic information before innovation. </p>
+                            <h4 class="h5 text-warning">Factura Facil</h4>
+                            <h2>Planes y precios</h2>
+                            <p>Elige el plan que más se adecue a tu negocio y empieza a facturar en minutos. Sin contratos ni altos costos. </p>
                         </div>
                     </div>
                 </div>
