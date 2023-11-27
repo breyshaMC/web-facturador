@@ -41,6 +41,7 @@
     <!--custom css start-->
     <link rel="stylesheet" href="assets/css/custom.css">
     <!--custom css end-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <style>
         img.position-relative.img-fluid {
             height: auto;
@@ -52,9 +53,11 @@
         img.el-image.uk-border-rounded.uk-box-shadow-small {
             border-radius: 30px;
             box-shadow: 0 2px 8px rgba(39,44,63,.06);
+            position: relative;
+            left: -300px;
         }
         .img-peice .img-one {
-            top: 490px;
+            top: 400px;
             left: -5%;
             z-index: 7;
             width: 400px;
@@ -81,6 +84,15 @@
             !important: ;
             left: -25%;
         }
+        i.ti.ti-apps-filled {
+            font-size: 3rem;
+        }
+        [data-aos][data-aos][data-aos-delay="250"].aos-animate, body[data-aos-delay="250"] [data-aos].aos-animate {
+            -webkit-transition-delay: .25s;
+            transition-delay: 2.25s;
+            margin-top: -100px;
+        }
+        
                 
     </style>
 
@@ -1037,8 +1049,8 @@
                     <div class="col-xl-5 col-lg-5">
                         <div class="hero-content-wrap text-center text-xl-start text-lg-start" data-aos="fade-right">
                             <h4 class="h5 text-primary">PLANES</h4>
-                            <h1 class="fw-bold display-5">Sistema de Facturación Electrónica + Punto de venta</h1>
-                            <p class="lead">Conexión directa a <img src="img/sunat.svg" width="100px"> </p>
+                            <h1 class="fw-bold display-5">Facturación Electrónica + Punto de venta</h1>
+                            <p class="lead">Actualizado según los ultimos requerimientos <img src="img/sunat.svg" width="100px"> </p>
                             <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
                                 <form id="subscribe-form" name="email-form" class="hero-subscribe-form d-block d-lg-flex d-md-flex">
                                     <input type="submit" value="Subscribe" data-wait="Please wait..." class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
@@ -1068,7 +1080,7 @@
                                         <img src="img/finanzas.svg" width="400" height="152" alt="hero image" class="position-relative img-fluid">
                                     </div>
                                     <div class="mac-screen">
-                                        <img src="img/facturador.svg" width="800" height="670" class="el-image uk-border-rounded uk-box-shadow-small" alt="facturación electrónica con facturafacil" loading="lazy">               
+                                        <img src="img/facturador.svg" width="700" height="570" class="el-image uk-border-rounded uk-box-shadow-small" alt="facturación electrónica con facturafacil" loading="lazy">               
                                     </div>
                                 </div>
                             </div>
@@ -1129,94 +1141,160 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
                             <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
-                                <i class="fas fa-list"></i>
+                                <i class="ti ti-adjustments-alt"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
-                                <p>Formatos en A4, A5 y tickets<p>
-                                <h3 class="h5">Personaliza tus facturas</h3>
                                 <p>
-                                    Nuestro sistema se adapta a cualquier rubro del mercado peruano.
+                                    Obtén reportes de ventas, compras, inventario y mucho más.
                                 </p>
                             </div>
-                            <a href="service-single.html" class="link-with-icon text-decoration-none">Explora más <i class="fas fa-arrow-right"></i></a>
+                            
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
                             <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
-                                <i class="fas fa-cloud"></i>
+                                <i class="ti ti-box-seam"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
-                                <p>Múltiples<p>
-                                <h3 class="h5">Establecimientos</h3>
                                 <p>
-                                    Administra todos tus establecimientos y almacenes en un solo lugar.
+                                    Gestiona cliente y productos (importación y exportación masiva).
                                 </p>
                             </div>
-                            <a href="service-single.html" class="link-with-icon text-decoration-none">Explora más <i class="fas fa-arrow-right"></i></a>
+        
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
                             <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
-                                <i class="fas fa-database"></i>
+                                <i class="ti ti-template"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
-                                <p>Sistema POS<p>
-                                <h3 class="h5">Punto de venta</h3>
                                 <p>
-                                    Realiza ventas de manera rápida y sencilla, sin configuraciones ni procesos complejos
+                                    Múltiples diseños de plantillas PDF para tus comprobantes.
                                 </p>
                             </div>
-                            <a href="service-single.html" class="link-with-icon text-decoration-none">Explora más <i class="fas fa-arrow-right"></i></a>
+                            
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="cyber-single-service bg-white rounded-custom mb-30" style="    padding-bottom: 3px;">
+                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                                <i class="ti ti-clipboard-text"></i>
+                            </div>
+                            <div class="cyber feature-info-wrap">
+                                <p>
+                                    Formatos adicionales:<br>Notas de venta, cotizaciones, pedidos, contratos y más.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
                             <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
-                                <i class="fas fa-door-closed"></i>
+                                <i class="ti ti-building-store"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
-                                <p>Simple<p>
-                                <h3 class="h5">Panel de control</h3>
                                 <p>
-                                    Gestiona los pagos de tus clientes, el stock por agotarse, las ventas del dia y otros más desde nuestro Dashboard.
+                                    Adaptable a cualquier rubro del mercado y para empresas de todo tamaño.
                                 </p>
                             </div>
-                            <a href="service-single.html" class="link-with-icon text-decoration-none">Explora más <i class="fas fa-arrow-right"></i></a>
+                            
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="cyber-single-serservervice bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
-                                <i class="fas fa-lock"></i>
-                            </div>
-                            <div class="cyber feature-info-wrap">
-                                <p>Constantes<p>
-                                <h3 class="h5">Actualizaciones gratuitas</h3>
-                                <p>
-                                    Cada vez que SUNAT lo requiera, además de actualizaciones sugeridas por nuestros clientes sin costo adicional.
-                                </p>
-                            </div>
-                            <a href="service-single.html" class="link-with-icon text-decoration-none">Explora más <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
                             <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
-                                <i class="fas fa-server"></i>
+                                <i class="ti ti-headset"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
-                                <p>Diversos tipos<p>
-                                <h3 class="h5">Reportes</h3>
                                 <p>
-                                    Tenemos varios tipos de reportes para conocer mejor como esta yendo su negocio.
+                                    Asesoría personalizada, guía de introduccion y soporte por WhatsApp 24/7.
                                 </p>
                             </div>
-                            <a href="service-single.html" class="link-with-icon text-decoration-none">Explora más <i class="fas fa-arrow-right"></i></a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="cyber-single-service bg-white rounded-custom mb-30">
+                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                                <i class="ti ti-pig-money"></i>
+                            </div>
+                            <div class="cyber feature-info-wrap">
+                                <p>
+                                    Sin costo por configuración inicial y actualizaciones constantes.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="cyber-single-service bg-white rounded-custom mb-30" style="padding-bottom: 60px;">
+                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                                <i class="ti ti-device-mobile"></i>
+                            </div>
+                            <div class="cyber feature-info-wrap">
+                                <p>
+                                    Úsalo en cualquier dispositivo (100% responsive para celulares).
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="cyber-single-service bg-white rounded-custom mb-30" style="padding-bottom: 60px;">
+                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                                <i class="ti ti-broadcast"></i>
+                            </div>
+                            <div class="cyber feature-info-wrap">
+                                <p>
+                                   Conexión directa SUNAT, PSE y OSE (Nubefact).
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="cyber-single-service bg-white rounded-custom mb-30">
+                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                                <i class="ti ti-refresh-dot"></i>
+                            </div>
+                            <div class="cyber feature-info-wrap">
+                                <p>
+                                    Consultas DNI y RUC ilimitadas + tipo de cambio actualizado a diario.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="cyber-single-service bg-white rounded-custom mb-30">
+                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                                <i class="ti ti-report-analytics"></i>
+                            </div>
+                            <div class="cyber feature-info-wrap">
+                                <p>
+                                    Controla tus finanzas: Maneja diferencias métodos de pago.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="cyber-single-service bg-white rounded-custom mb-30">
+                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                                <i class="ti ti-brand-android"></i>
+                            </div>
+                            <div class="cyber feature-info-wrap">
+                                <p>
+                                    Contamos con APP para Android (Próximamente IOS).
+                                </p>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -1229,7 +1307,7 @@
                     <div class="col-lg-5 col-12">
                         <div class="why-choose-content">
                             <div class="icon-box rounded-custom bg-primary shadow-sm d-inline-block">
-                                <i class="fas fa-bug fa-2x text-white"></i>
+                                
                             </div>
                             <h4 class="h5 text-primary">Factura Facil</h4>
                             <h2>Módulos del sistema</h2>
@@ -1279,7 +1357,7 @@
             <div class="container">
                 <div class="row align-items-lg-center justify-content-between">
                     <div class="col-lg-5 order-lg-2 mb-7 mb-lg-0">
-                    <i class="fa-brands fa-android"></i>
+                    <i class="ti ti-apps-filled"></i>
                         <div class="mb-4" data-aos="fade-up">
                             <h4 class="h5 text-primary">Disponible solo para Android</h4>
                             <h2>Descarga la App y factura desde cualquier lado</h2>
@@ -1287,12 +1365,12 @@
                         </div>
                         <ul class="list-unstyled d-flex flex-wrap list-two-col mt-5" data-aos="fade-up">
                             <li>
-                                <span class="d-block mb-4"><i class="fas fa-user fa-2x text-primary"></i></span>
+                                <span class="d-block mb-4"><i class="ti ti-user-filled fa-2x "></i></span>
                                 <h3 class="h5">Análisis de clientes</h3>
                                 <p>Lograr objetivamente productos excepcionales a través de la personalización.</p>
                             </li>
                             <li>
-                                <span class="d-block mb-4"><i class="fas fa-clock fa-2x text-primary"></i></span>
+                                <span class="d-block mb-4"><i class="ti ti-clock-filled fa-2x "></i></span>
                                 <h3 class="h5">Métricas en tiempo real</h3>
                                 <p>Integre interactivamente usuarios extensibles maximizando los recursos. </p>
                             </li>
@@ -1344,40 +1422,34 @@
                         <div class="pricing-content-wrap mb--100 bg-white rounded-custom shadow-lg border d-fle z-10 position-relative">
                             <div class="price-feature-col pricing-feature-info left-radius bg-primary-soft p-5">
                                 <ul class="list-unstyled pricing-feature-list pricing-included-list mb-0" data-aos="fade-left">
-                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i> Unlimited domains</li>
-                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i>Unlimited notifications</li>
-                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i> 10,000 unique visitors</li>
-                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i> Conversion analytics</li>
-                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i> Conversion analytics</li>
-                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i> Live chat support</li>
-                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i> Recent activity notification</li>
-                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i> Live visitor count notification</li>
-                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i> Send data to analytics tools</li>
+                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i> 3 Usuarios</li>
+                                    <li class="py-1"><i class="fas fa-check-circle text-primary me-2"></i>Comprobantes ilimitados</li>
+                                    
                                 </ul>
                             </div>
                             <div class="price-feature-col pricing-action-info p-5" data-aos="fade-right">
                                 <ul class="nav nav-pills mb-4 pricing-tab-list" id="pills-tab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <button class="active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Monthly</button>
+                                        <button class="active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Mensual</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" class="">Yearly</button>
+                                        <button id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" class="">Anual</button>
                                     </li>
                                 </ul>
                                 <div class="tab-content" id="pills-tabContent">
                                     <div class="tab-pane fade active show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                        <h3 class="h5">Pro Monthly</h3>
-                                        <p>Professionally integrate principle-centered intellectual capital whereas equity.</p>
+                                        <h3 class="h5">Plan F3</h3>
+                                        <p>Antes: <s>S/125</s></p>
                                         <div class="pricing-price mt-5">
-                                            <h4 class="h1 fw-bold">$49 <span>/Month</span></h4>
+                                            <h4 class="h1 fw-bold">$59.90 <span>/mensual</span></h4>
                                         </div>
                                         <a href="request-demo.html" class="btn btn-primary mt-3">Start 14-Days Trial</a>
                                     </div>
                                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                        <h3 class="h5">Pro Yearly</h3>
+                                        <h3 class="h5">Profesional anual</h3>
                                         <p>Uniquely engineer prospective alignments without clicks-and-mortar innovation.</p>
                                         <div class="pricing-price mt-5">
-                                            <h4 class="h1 fw-bold">$89 <span>/Year</span></h4>
+                                            <h4 class="h1 fw-bold">$599.00 <span>/al Año</span></h4>
                                         </div>
                                         <a href="request-demo.html" class="btn btn-primary mt-3">Start 14-Days Trial</a>
                                     </div>
@@ -1398,72 +1470,66 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="section-heading text-center" data-aos="fade-up">
-                            <h4 class="h5 text-primary">FAQ</h4>
-                            <h2>Frequently Asked Questions</h2>
-                            <p>Efficiently network cross-unit paradigms for premier technologies scale 24/7 paradigms for process-centric data interoperable.</p>
+                            <h4 class="h5 text-primary">Factura Facil</h4>
+                            <h2>Preguntas frecuentes</h2>
+                            <p>Resuelve tus dudas más comunes.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-10">
                         <div class="faq-content-wrap d-flex mb-5" data-aos="fade-up" data-aos-delay="50">
-                            <span class="faq-icon me-3"><i class="fas fa-copyright text-primary"></i></span>
+                            <span class="faq-icon me-3"><i class="ti ti-check "></i></span>
                             <div class="faq-info">
-                                <h5>Which license do I need to use an item in a commercial?</h5>
-                                <p class="mb-0">Collaboratively iterate high-payoff content via high standards in technology.
-                                    economically sound methodologies via corporate.</p>
+                                <h5>¿Qué debo tener en cuenta antes de empezar?</h5>
+                                <p class="mb-0">Para activar tu cuenta de facturación una vez elegido el plan para iniciar, debe contar con un certificado digital y usuario secundario. </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-10">
                         <div class="faq-content-wrap d-flex mb-5" data-aos="fade-up" data-aos-delay="100">
-                            <span class="faq-icon me-3"><i class="fas fa-credit-card text-primary"></i></span>
+                            <span class="faq-icon me-3"><i class="ti ti-check"></i></span>
                             <div class="faq-info">
-                                <h5>What payment methods do you accept?</h5>
-                                <p class="mb-0">Globally e-enable plug-and-play imperatives and seamless e-markets. Intrinsicly
-                                    negotiate resource maximizing e-tailers after just in time.</p>
+                                <h5>¿Puedo solicitar una demostración para estar más seguro de cómo funciona su sistema?</h5>
+                                <p class="mb-0">Por supuesto que sí, puedes contactarnos vía WhatsApp 944 999 965 y solicitar una demostración sin ningún compromiso.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-10">
                         <div class="faq-content-wrap d-flex mb-5" data-aos="fade-up" data-aos-delay="150">
-                            <span class="faq-icon me-3"><i class="fas fa-file text-primary"></i></span>
+                            <span class="faq-icon me-3"><i class="ti ti-check"></i></span>
                             <div class="faq-info">
-                                <h5>How does the free trial work and what is included?</h5>
-                                <p class="mb-0">Economically sound supply chains through distributed
-                                    strategic theme areas. Appropriately cultivate innovative web-readiness whereas.</p>
+                                <h5>¿Cuánto demora la activación del sistema de facturación?</h5>
+                                <p class="mb-0">Nuestro proceso de configuración del sistema es inmediato al pago del plan elegido, sin embargo para que su cuenta esté conectada a SUNAT, 
+                                    debe tener previo el certificado digital y usuario secundario, de no contar con ello máximo 24 horas después de ello.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-10">
                         <div class="faq-content-wrap d-flex mb-5" data-aos="fade-up" data-aos-delay="200">
-                            <span class="faq-icon me-3"><i class="fas fa-microphone text-primary"></i></span>
+                            <span class="faq-icon me-3"><i class="ti ti-check"></i></span>
                             <div class="faq-info">
-                                <h5>What happens after my free trial ends?</h5>
-                                <p class="mb-0">Progressively pontificate quality vectors without resource maximizing
-                                    bandwidth. Conveniently maximize turnkey testing procedures for compelling.</p>
+                                <h5>¿Qué sucede si deseo dejar de usar su servicio por motivos personales o por motivos de fuerza mayor?</h5>
+                                <p class="mb-0">Nos dará mucha pena tomar esta decisión sin embargo te ayudaremos en todo lo necesario para tu proceso de baja.
+                                                Solo deberás enviar un correo solicitando tu baja del sistema, así como la fecha en que quieres que aplique (Debe ser 1 mes de anticipación).
+                                                Adicionalmente tendrás un periodo de 3 meses como máximo para solicitar el acceso y descargar todos tus comprobantes 
+                                                (recuerda que SUNAT puede solicitar información de hasta 5 años hacia atrás).</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-10">
                         <div class="faq-content-wrap d-flex mb-5" data-aos="fade-up" data-aos-delay="250">
-                            <span class="faq-icon me-3"><i class="fas fa-play-circle text-primary"></i></span>
+                            <span class="faq-icon me-3"><i class="ti ti-check"></i></span>
                             <div class="faq-info">
-                                <h5>Why do you ask for a video introduction?</h5>
-                                <p class="mb-0">Maximizing e-enable imperatives and seamless e-markets. Intrinsicly
-                                    negotiate resource quality vectors without after just in time.</p>
+                                <h5>¿Su sistema es fácil de usar?</h5>
+                                <p class="mb-0">Buscamos ayudarte con un sistema fácil y rápido, fue pensado para ayudar a toda empresa peruana 
+                                    y emprendedores peruanos que tengan o no cercanía con la tecnología, en la actualidad tenemos usuarios de todas las edades, 
+                                    y de todos los tipos de profesión.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-10">
-                        <div class="faq-content-wrap d-flex mb-5" data-aos="fade-up" data-aos-delay="300">
-                            <span class="faq-icon me-3"><i class="fas fa-code-branch text-primary"></i></span>
-                            <div class="faq-info">
-                                <h5>Can I work from anywhere?</h5>
-                                <p class="mb-0">Conveniently maximize turnkey sound supply chains through distributed
-                                    strategic theme areas. Appropriately cultivate innovative web-readiness whereas.</p>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
