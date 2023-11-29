@@ -1313,22 +1313,22 @@
                             <h2>Módulos del sistema</h2>
                             <p>Podrás personalizar tu sistema según el rubro de su negocio. Estos son algunos modulos:</p>
                             <ul class="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
-                                <li class="py-1"><i class="fa-solid fa-gear me-2 text-primary"></i>CONFIGURACIÓN</li>
-                                <li class="py-1"><i class="fa-solid fa-file-invoice me-2 text-primary"></i>INVENTARIO</li>
-                                <li class="py-1"><i class="fa-solid fa-money-bill-trend-up me-2 text-primary"></i>PAGOS</li>
-                                <li class="py-1"><i class="fa-solid fa-shop me-2 text-primary"></i>LOCALES</li>
-                                <li class="py-1"><i class="fa-solid fa-hotel me-2 text-primary"></i>HOTELES</li>
-                                <li class="py-1"><i class="fa-solid fa-hospital me-2 text-primary"></i>FARMACIAS</li>
-                                <li class="py-1"><i class="fa-solid fa-gauge-simple-high me-2 text-primary"></i>DASHBOARD</li>
-                                <li class="py-1"><i class="fa-solid fa-cart-shopping me-2 text-primary"></i>VENTAS</li>
-                                <li class="py-1"><i class="fa-solid fa-envelopes-bulk me-2 text-primary"></i>POS</li>
-                                <li class="py-1"><i class="fa-solid fa-store me-2 text-primary"></i>TIENDA ONLINE</li>
-                                <li class="py-1"><i class="fa-solid fa-shirt me-2 text-primary"></i>PRODUCTOS</li>
-                                <li class="py-1"><i class="fa-solid fa-file-pen me-2 text-primary"></i>REPORTES</li>
-                                <li class="py-1"><i class="fa-solid fa-calculator me-2 text-primary"></i>CONTABILIDAD</li>
-                                <li class="py-1"><i class="fa-solid fa-coins me-2 text-primary"></i>FINANZAS</li>
-                                <li class="py-1"><i class="fa-solid fa-user-group me-2 text-primary"></i>CLIENTES</li>
-                                <li class="py-1"><i class="fa-solid fa-cart-flatbed me-2 text-primary"></i>COMPRAS</li>
+                                <li class="py-1"><i class="ti ti-settings me-2 text-primary"></i>CONFIGURACIÓN</li>
+                                <li class="py-1"><i class="ti ti-file-invoice me-2 text-primary"></i>INVENTARIO</li>
+                                <li class="py-1"><i class="ti ti-businessplan me-2 text-primary"></i>PAGOS</li>
+                                <li class="py-1"><i class="ti ti-home-2 me-2 text-primary"></i>LOCALES</li>
+                                <li class="py-1"><i class="ti ti-building-community me-2 text-primary"></i>HOTELES</li>
+                                <li class="py-1"><i class="ti ti-building-hospital me-2 text-primary"></i>FARMACIAS</li>
+                                <li class="py-1"><i class="ti ti-dashboard me-2 text-primary"></i>DASHBOARD</li>
+                                <li class="py-1"><i class="ti ti-building-store me-2 text-primary"></i>VENTAS</li>
+                                <li class="py-1"><i class="ti ti-credit-card-pay me-2 text-primary"></i>POS</li>
+                                <li class="py-1"><i class="ti ti-home-dollar me-2 text-primary"></i>TIENDA ONLINE</li>
+                                <li class="py-1"><i class="ti ti-shopping-cart me-2 text-primary"></i>PRODUCTOS</li>
+                                <li class="py-1"><i class="ti ti-file-pencil me-2 text-primary"></i>REPORTES</li>
+                                <li class="py-1"><i class="ti ti-calculator me-2 text-primary"></i>CONTABILIDAD</li>
+                                <li class="py-1"><i class="ti ti-coins me-2 text-primary"></i>FINANZAS</li>
+                                <li class="py-1"><i class="ti ti-users-group me-2 text-primary"></i>CLIENTES</li>
+                                <li class="py-1"><i class="ti ti-truck-loading me-2 text-primary"></i>COMPRAS</li>
                             </ul>
                             <a href="about-us.html" class="read-more-link text-decoration-none">Know More About Us <i
                                 class="fas fa-arrow-right ms-2"></i></a>
