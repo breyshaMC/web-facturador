@@ -43,18 +43,12 @@
     <!--custom css end-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <style>
-        img.position-relative.img-fluid {
-            height: auto;
-            max-width: none;
-            box-shadow: 0 5px 15px rgba(39,44,63,.06);
-            border-radius: 20px;
-            left: -57%;
-        }
+        
         img.el-image.uk-border-rounded.uk-box-shadow-small {
             border-radius: 30px;
             box-shadow: 0 2px 8px rgba(39,44,63,.06);
             position: relative;
-            left: -300px;
+            left: -50px;
         }
         .img-peice .img-one {
             top: 400px;
@@ -1076,9 +1070,7 @@
                             <!--animated shape end-->
                             <div class="hero-img-wrap position-relative">
                                 <div class="hero-screen-wrap">
-                                    <div class="phone-screen">
-                                        <img src="img/finanzas.svg" width="400" height="152" alt="hero image" class="position-relative img-fluid">
-                                    </div>
+                                    
                                     <div class="mac-screen">
                                         <img src="img/facturador.svg" width="700" height="570" class="el-image uk-border-rounded uk-box-shadow-small" alt="facturación electrónica con facturafacil" loading="lazy">               
                                     </div>
@@ -1143,7 +1135,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-adjustments-alt"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1156,7 +1148,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-box-seam"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1169,7 +1161,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-template"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1182,7 +1174,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30" style="    padding-bottom: 3px;">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-clipboard-text"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1195,7 +1187,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-building-store"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1208,7 +1200,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-headset"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1221,7 +1213,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-pig-money"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1234,7 +1226,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30" style="padding-bottom: 60px;">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-device-mobile"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1247,7 +1239,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30" style="padding-bottom: 60px;">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-broadcast"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1260,7 +1252,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-refresh-dot"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1273,7 +1265,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-report-analytics"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
@@ -1286,7 +1278,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="cyber-single-service bg-white rounded-custom mb-30">
-                            <div class="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                            <div class="text-primary mb-2">
                                 <i class="ti ti-brand-android"></i>
                             </div>
                             <div class="cyber feature-info-wrap">
